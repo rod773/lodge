@@ -239,7 +239,7 @@
                     </h6>
                 </div>
                 <div class="img-box">
-                    <img src="images/p-1.png" alt="">
+                    <img src="<?php echo get_template_directory_uri();?>/images/p-1.png" alt="">
                 </div>
                 <div class="detail-box">
                     <h5>
