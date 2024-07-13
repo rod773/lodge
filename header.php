@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html <?php language_attributes();?>>
 
 <head>
     <!-- Basic -->
@@ -27,15 +27,15 @@
 
 </head>
 
-<body>
+<body <?php body_class();?>>
 
     <div class="hero_area">
         <!-- header section strats -->
         <header class="header_section">
             <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg custom_nav-container ">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo.png" alt="">
+                        <img src="http://localhost/wordpress1/wp-content/uploads/2024/07/logo-1.png" alt="">
                         <span>
                             Lodge
                         </span>
@@ -81,6 +81,11 @@
                         </div>
                     </div>
                 </nav>
+
+
             </div>
+
+
+
         </header>
         <!-- end header section -->
