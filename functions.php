@@ -44,7 +44,11 @@ add_action( 'after_setup_theme', 'register_menus', 0 );
  theme_styles(){
 
 
+    
+
+ wp_enqueue_style("fonts","https://fonts.googleapis.com/css?family=Baloo+Chettan|Poppins:400,600,700&display=swap",date("h:i:s"));
   
+  wp_enqueue_style("carousell","https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css",date("h:i:s"));
 
   wp_enqueue_style("main_style",get_theme_file_uri("/css/style.css"),date("h:i:s"));
   wp_enqueue_style("responsive",get_theme_file_uri("/css/responsive.css"),date("h:i:s"));
