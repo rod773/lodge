@@ -2,7 +2,7 @@
 <!-- slider section -->
 <section class=" slider_section position-relative">
     <div class="design-box">
-        <img src="images/design-1.png" alt="">
+        <img src="<?php echo get_template_directory_uri();?>/images/design-1.png" alt="">
     </div>
     <div class="slider_number-container d-none d-md-block">
         <div class="number-box">
@@ -40,11 +40,11 @@
                         <div class="col-md-6">
                             <div class="detail_box">
                                 <h2>
-                                    <span> New Collection</span>
+                                    <span> Nueva Colección</span>
                                     <hr>
                                 </h2>
                                 <h1>
-                                    Jewellery
+                                    Bisuteria
                                 </h1>
                                 <p>
                                     Lorem ipsum dolor sit amet consec tetur adipiscing elit elit at felislacinia
@@ -67,11 +67,11 @@
                         <div class="col-md-6">
                             <div class="detail_box">
                                 <h2>
-                                    <span> New Collection</span>
+                                    <span> Nueva Colección</span>
                                     <hr>
                                 </h2>
                                 <h1>
-                                    Jewellery
+                                    Bisuteria
                                 </h1>
                                 <p>
                                     Lorem ipsum dolor sit amet consec tetur adipiscing elit elit at felislacinia
@@ -94,11 +94,11 @@
                         <div class="col-md-6">
                             <div class="detail_box">
                                 <h2>
-                                    <span> New Collection</span>
+                                    <span> Nueva Colección</span>
                                     <hr>
                                 </h2>
                                 <h1>
-                                    Jewellery
+                                    Bisuteria
                                 </h1>
                                 <p>
                                     Lorem ipsum dolor sit amet consec tetur adipiscing elit elit at felislacinia
@@ -192,7 +192,7 @@
                 <div class="detail-box">
                     <div class="heading_container">
                         <h2>
-                            About Jewellery Shop
+                            About Bisuteria Shop
                         </h2>
                     </div>
                     <p>
@@ -228,14 +228,14 @@
     <div class="container">
         <div class="heading_container">
             <h2>
-                Our Jewellery Price
+                Our Bisuteria Price
             </h2>
         </div>
         <div class="price_container">
             <div class="box">
                 <div class="name">
                     <h6>
-                        Diamond Ring
+                        Anillo de Diamantes
                     </h6>
                 </div>
                 <div class="img-box">
@@ -253,7 +253,7 @@
             <div class="box">
                 <div class="name">
                     <h6>
-                        Diamond Ring
+                        Anillo de Diamantes
                     </h6>
                 </div>
                 <div class="img-box">
@@ -271,7 +271,7 @@
             <div class="box">
                 <div class="name">
                     <h6>
-                        Diamond Ring
+                        Anillo de Diamantes
                     </h6>
                 </div>
                 <div class="img-box">
