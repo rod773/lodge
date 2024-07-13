@@ -32,59 +32,55 @@
     <div class="hero_area">
         <!-- header section strats -->
         <header class="header_section">
-            <div class="container-fluid">
-                <nav class="navbar navbar-expand-lg custom_nav-container">
-                    <a class="navbar-brand" href="index.html">
-                        <img src="http://localhost/wordpress1/wp-content/uploads/2024/07/logo-1.png" alt="">
+            <nav class="navbar navbar-expand-lg custom_nav-container">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="<?php echo get_template_directory_uri();?>/images/logo.png" alt="">
                         <span>
                             Lodge
                         </span>
                     </a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse"
                         data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        aria-expanded="true" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-                            <ul class="navbar-nav  ">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span
-                                            class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="about.html"> About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="jewellery.html">Jewellery </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact us</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Login</a>
-                                </li>
-                            </ul>
+                            <?php /* Primary navigation */ 
+                        wp_nav_menu( array(
+                        'theme_location'=>'primary',
+                        'depth' => 4,
+                        'container' => 'nav',
+                        'menu_class'=>'navbar-nav',
+                        'unstyled',
+                        'fallback_cb' => 'Understrap_WP_Bootstrap_Navwalker::fallback',
+                        'walker' => new Understrap_WP_Bootstrap_Navwalker())
+                        );
+                        ?>
 
                         </div>
-                        <div class="quote_btn-container ">
-                            <a href="">
-                                <img src="images/cart.png" alt="">
-                                <div class="cart_number">
-                                    0
-                                </div>
-                            </a>
-                            <form class="form-inline">
-                                <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
-                            </form>
-                        </div>
+
+
                     </div>
-                </nav>
+                    <div class="quote_btn-container ">
+                        <a href="">
+                            <img src="<?php echo get_template_directory_uri();?>/images/cart.png" alt="">
+                            <div class="cart_number">
+                                0
+                            </div>
+                        </a>
+                        <form class="form-inline">
+                            <button class="btn  my-2 my-sm-0 nav_search-btn" type="submit"></button>
+                        </form>
+                    </div>
 
 
-            </div>
 
+                </div>
+
+            </nav>
 
 
         </header>

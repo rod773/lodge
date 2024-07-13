@@ -1,6 +1,11 @@
 <?php
 
+
+
 /* Enqueue Scripts and Styles */
+
+
+include_once  (__DIR__)."/class-wp-bootstrap-navwalker.php";
 
 
 
@@ -46,8 +51,8 @@ add_action( 'after_setup_theme', 'register_menus', 0 );
   wp_enqueue_style("bootstrap",get_theme_file_uri("/css/bootstrap.css"),date("h:i:s"));
 
   wp_enqueue_script("bootstrap_js",get_theme_file_uri("/js/bootstrap.js"),[],date("h:i:s"),true);
-  wp_enqueue_script("main_style",get_theme_file_uri("/js/custom.js"),[],date("h:i:s"),true);
-  wp_enqueue_script("main_style",get_theme_file_uri("/js/jquery-3.4.1.min.js"),[],date("h:i:s"),true);
+  wp_enqueue_script("custom",get_theme_file_uri("/js/custom.js"),[],date("h:i:s"),true);
+  wp_enqueue_script("jquery",get_theme_file_uri("/js/jquery-3.4.1.min.js"),[],date("h:i:s"),true);
 
   //wp_enqueue_script("tailwind","https://cdn.tailwindcss.com" ,[],date("h:i:s"),true);
 
