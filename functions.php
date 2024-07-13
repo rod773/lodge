@@ -58,10 +58,7 @@ add_action( 'after_setup_theme', 'register_menus', 0 );
   wp_enqueue_script("custom",get_theme_file_uri("/js/custom.js"),[],date("h:i:s"),true);
   wp_enqueue_script("jquery",get_theme_file_uri("/js/jquery-3.4.1.min.js"),[],date("h:i:s"),true);
 
-  //wp_enqueue_script("tailwind","https://cdn.tailwindcss.com" ,[],date("h:i:s"),true);
-
-  
-
+ 
 
 
  }
