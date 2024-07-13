@@ -51,7 +51,7 @@
                                     aptent taciti sociosqu ad litora torquent per conubia nostra
                                 </p>
                                 <div>
-                                    <a href="">Shop Now</a>
+                                    <a href="">Comprar Ahora</a>
                                 </div>
                             </div>
                         </div>
@@ -78,7 +78,7 @@
                                     aptent taciti sociosqu ad litora torquent per conubia nostra
                                 </p>
                                 <div>
-                                    <a href="">Shop Now</a>
+                                    <a href="">Comprar Ahora</a>
                                 </div>
                             </div>
                         </div>
@@ -105,7 +105,7 @@
                                     aptent taciti sociosqu ad litora torquent per conubia nostra
                                 </p>
                                 <div>
-                                    <a href="">Shop Now</a>
+                                    <a href="">Comprar Ahora</a>
                                 </div>
                             </div>
                         </div>
